@@ -1,0 +1,14 @@
+# MATCH-CASE
+a = int(input("Enter your age:"))
+match a:
+    case 18:
+      print('Ticket!! Ticket!!, Abbe sale Voter Id nikal ****\n')
+      print('Aagar Voter Id ho to ej ethar aana varna sidha ghar ej         jaana ')
+    case _ if a>0 and a<18:
+      print('Beta pehle election ki spelling sikhke aa')
+    case _ if a>110:
+      print('Tere pure khandan me bhi etni umar ka koi hai sale')
+    case _ if a>18 and a<110:
+      print('Aiye Padhariye Voting Karne, Most Welcome')
+    case _:
+      print('Beta tu ghar jake mummy ki godh me soja tujse to ye hone       se raha')
