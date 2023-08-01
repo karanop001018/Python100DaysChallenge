@@ -1,0 +1,84 @@
+# TYPES OF ARGUMENTS:----
+#   1. Default Arguments
+#   2. Keyword Arguments
+#   3. Variable Length Argument
+#   4. Required Arguments
+
+
+def average(a, b):  # Default Arguments here are a and b
+  print('The average is :', (a + b) / 2)
+
+
+average(50, 60)
+
+
+def average(c=10, d=20):
+  print('\nThe average is :', (c + d) / 2)
+
+
+average()
+average(50, 30)
+
+
+def average(x=20, y=50):
+  print(
+    '\nThe average is :',
+    (x + y) / 2,
+  )
+
+
+average(x=80)
+average(y=40)
+
+
+def name(fname='Kunal', mname='Karan', lname='Omkar'):
+  print('Hello', fname, mname, lname)  #Keyword Arguments
+
+
+name()
+name('Krish')
+name('Krishna', 'Tanisha', 'Ruchit')  #Keyword Arguments
+
+
+# Variable length arguments
+def average(*numbers):  #This '*' converts numbers into tuples
+  print('\n', type(numbers))  #The type of '*numbers is tuple'
+  sum = 0
+  for i in numbers:
+    sum = sum + i
+  print('Average is:', sum / len(numbers))
+
+
+average(4, 6, 10, 0)
+
+# Keyword Aribitary Argumnets (In form of dictionary)
+
+
+def name(**name):  # This '**' makes the function 'name' a dictionary
+  print(type(name))  #The type is 'dict'
+  print('\n\nHello', name['fname'], name['mname'], name['lname'])
+
+
+name(mname='Ironman and', lname='Spider-man', fname='Captian-America,')
+
+
+def average(*numbers):
+  sum = 0
+  for i in numbers:
+    sum = sum + i
+  # return sum/len(numbers) #if we not implement this return statement we will get none(type) as output
+
+
+c = average(40, 60, 80, 20)
+print('\n', c)
+
+
+def average(*numbers):
+  sum = 0
+  for i in numbers:
+    sum = sum + i
+  return sum / len(numbers)
+
+
+c = average(40, 60, 80, 20)
+print('\n', c)
