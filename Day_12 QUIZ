@@ -1,0 +1,4 @@
+# QUICK QUIZ
+nm = "Karan"
+print(nm[-4:-2])
+# Ans:ar
