@@ -1,0 +1,8 @@
+print("Hi,my name is Karan")
+print(63)
+print(63*36)
+print(63/36)
+print(63+36)
+print(63-36)
+print(63//36)
+print(63%36)
