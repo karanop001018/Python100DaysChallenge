@@ -1,0 +1,30 @@
+l = [11,55,14,32,458,65]
+print(l)
+l.append(63)
+print(l)
+print(l.index(63))
+print(l)
+l.insert(2,69)
+print(l)
+
+
+b = [0,1,1,0,0,1,1,1,0,1,1,0,1,0]
+print(b.count(0))
+print(b.count(1))
+
+m = l.copy()
+# m = l can also be used
+m[0] = 8
+m[5] = 36
+print(m)
+
+
+
+p = [800,900,62]
+print(p)
+o = [100,500,589,300]
+print(o)
+p.extend(o)
+print(p)
+k = o + p
+print(k)
