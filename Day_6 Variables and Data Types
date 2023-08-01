@@ -1,0 +1,35 @@
+a = 369966396339693
+print(a)
+print(type(a))
+
+d = 63.36
+print(d)
+print(type(d))
+
+b = "Karan"
+print(b)
+print(type(b))
+
+c = True
+print(c)
+print(type(c))
+
+e = None
+print(e)
+print(type(e))
+
+f = complex(36,63)
+print(f)
+print(type(f))
+
+list = [36, 6.3, [-36,63], 'Karan', True, False, ]
+print(list)
+print(type(list))
+
+tuple = (("Karan","Patel"), ("Student","CSE"))
+print(tuple)
+print(type(tuple))
+
+dict = {"Name":"Karan","Age":18,"CanDrive":True}
+print(dict)
+print(type(dict))
