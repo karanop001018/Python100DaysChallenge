@@ -1,0 +1,7 @@
+k = input("Enter your name:")
+print("My name is:",k)
+
+a = input("Enter one number:")
+b = input("Enter second number:")
+print(a+b)
+print("The sum of a and b is: ",int(a)+int(b))
