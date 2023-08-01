@@ -1,0 +1,44 @@
+a=int(input("Enter your age:")) 
+print("Your age is:",a)
+if (a>=18):
+  print("You can drive")
+else:
+  print("You can't drive")
+
+
+
+print('\n')
+iphone=50000
+budget=25000
+if(budget>=iphone):
+  print("You can buy this product")
+else:
+  print("You can't afford that")
+
+
+
+c= int(input ("Enter your age"))
+if(c<18):
+ print("You are minor\nYou can't vote. ")
+elif(c==18):
+  print (" If you have election's id then you can vote")
+elif(c>18 and c<111):
+  print("You can vote")
+else:
+  print("Invalid Input")
+#The space left before print statement is called as "indentation space".
+
+#NESTED IF-ELSE
+print('\n\n')
+num = 18
+if (num < 0):
+    print("Number is negative.")
+elif (num > 0):
+    if (num <= 10):
+        print("Number is between 1-10")
+    elif (num > 10 and num <= 20):
+        print("Number is between 11-20")
+    else:
+        print("Number is greater than 20")
+else:
+    print("Number is zero")
