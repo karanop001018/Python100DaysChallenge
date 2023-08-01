@@ -1,0 +1,21 @@
+letter = 'Hey my name is {} and I am from {}'
+country = 'Canada'
+name = 'Preet'
+print(letter.format(name,country))
+country1 = 'India'
+name1 = 'Karan'
+print(f'Hey, my name is {name1} and I am from {country1}')
+print(f'Hey, my name is {{name1}} and I am from {{country1}}')
+
+
+
+txt = 'For only {price:.2f} dollars!'
+print(txt.format(price = 49.09999))
+
+amount = 123.008889
+txt1 = f'For only {amount:.2f} dollars!'
+print(txt1)
+
+
+print(type(f'{2*30}'))
+print(f'{2*30}')
