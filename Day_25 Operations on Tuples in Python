@@ -1,0 +1,35 @@
+countries = ('India','Spain','Korea','Russia','Germany')
+temp = list(countries)
+temp.append('USA') #adds item at 
+print(temp)
+print(countries)
+temp.pop(2)
+temp[4] = 'Finland'
+countries = tuple(temp)
+print(countries)
+
+
+
+
+countries1 = ('Pakistan','Afghanistan','Bangladesh')
+print(countries1)
+countries2 = ('India','Sri Lanka','Nepal')
+print(countries2)
+SouthEastAsia = countries1 + countries2
+print(SouthEastAsia)
+
+
+binary = (0,1,0,1,0,1,0,1,0,1,0,1,0,0,1,1,1,0,1)
+bi = binary.count(0)
+print(bi)
+bi = binary.count(1)
+print(bi)
+bi = len(binary)
+print(bi)
+
+bi = binary.index(0,4,10) # The first occuring '0' in between the index 4 and 10 
+# index from 4 to 10: (0,1,0,1,0,1,0) here 0 first comes on index number 4
+print(bi)
+bi = binary.index(1,4,9)
+# index from 4 to 9: (0,'1',0,1,0) here 1 first comes on index number 5
+print(bi)
