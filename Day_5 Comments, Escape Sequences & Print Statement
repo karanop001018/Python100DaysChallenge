@@ -1,0 +1,27 @@
+print(
+  "Hello, everyone I am Karan Patel\nA student from KPGU University \nStuding in 2nd year of B.Tech Computer Science and Engineering"
+)  # Here \n is escape sequence character or we can say a new line character
+#This is a single line comment
+'''
+
+This is a multi line comment
+Hello, everyone I am Karan Patel
+A student from KPGU University 
+Studing in B.Tech Computer Science and Engineering
+
+'''
+"""
+Multiple line comments works on 
+('''          ''') and other method is 
+(""" """)
+"""
+
+print("\n\nHey I am a \"good boy\" and my name is Karan Patel")
+# Here \"abcxyz\" is double quote escape sequence character
+
+print('\nHey I am a \"good boy\" and my name is Karan Patel')
+print('\nHey I am a \'good boy\' and my name is Karan Patel')
+
+print('\nKaran', 63,'Omkar', 96, sep='~') #sep='~' separates every member from one-another by the given symbol in the quotes.
+
+print('My name is Karan Patel and \nMy enrollment number is',end=' 63 ') # end='63' add the number/character given in quotes at the end of print statement
