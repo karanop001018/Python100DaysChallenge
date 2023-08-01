@@ -1,0 +1,80 @@
+# Strings are immutable
+a = "Karan"
+print(len(a))
+print(a.upper())
+print(a.lower())
+#Q: Will it convert first string to lower or upper?
+# Ans: No, because strings are immutable so it will create new string of upper/lower case
+
+b = "Omkar!!!!!"
+print(b)
+print(b.rstrip('!'))
+print(b.replace('Omkar', 'Karan'))
+
+c = "!!!!!Karan !!!!!!!!!!  Karan"
+print(c.split(" "))
+
+
+
+blog = "introduction to python"
+print(blog.capitalize())
+
+
+kp = "Welcome to python programming!!"
+print(kp.center(50)) 
+#It left 50 spaces before printing the given string
+
+e = "Hi, Karan what are you doing Karan, Karan which lab do you have now?"
+print(e.count("Karan"))
+
+
+k = "Hey, what are you doing?"
+print(k.endswith("?"))
+print(k.endswith("!!!"))
+print(k[5:12])
+print(k.endswith("r",5,12))
+
+print(k.find("are"))
+
+print(k.find("aree"))
+
+# print(k.index("aree"))
+#This will give you error because it doesn't in the given string.
+
+
+l = "Whatareyoudoing"
+m = "What are you doing"
+n = "Whatareyoudoing009"
+print(l.isalnum())
+print(m.isalnum())
+print(n.isalnum())
+# alpha-numeric means: No space or any other notations only (A-Z,a-z,0-9,)
+print(l.isalpha())
+print(m.isalpha())
+print(n.isalpha())
+# isalpha means: only consider (A-Z,a-z)
+
+v = "We wish you a very Happy New Year"
+print(v.isprintable())
+x = "We wish you a very Happy New Year\n"
+# It's not printable due to \n because it is not the part of string we want to print.
+print(x.isprintable())
+
+p = "     " #Applied space using space bar(i.e. whitespace)
+print(p.isspace())
+q = "    " #Applied space using tab (i.e. whitespace)
+print(q.isspace())
+
+h = "Hi My Name Is Karan"
+print(h.istitle())
+i = "Hi my name is Karan"
+print(i.istitle())
+# It returns True if first letter of each word of the string is capital, else it returns false
+
+j = "Hey my name is Karan"
+print(j.startswith("Hey"))
+print(j.startswith("name"))
+
+print(j.swapcase()) #It converts lower-case to upper-case and vice-versa
+
+print(j.title()) #It capitalizes each letter of the word within the string
