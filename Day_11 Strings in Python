@@ -1,0 +1,24 @@
+name = 'Karan'
+friend = 'Omkar'
+anotherfriend = 'Ajil'
+apple = '''They said
+Hi, Karan
+I said
+I am fine
+What about yours?'''
+
+print('Hello, ' + name)
+print(apple)
+print(name[0])
+print(name[1])
+# print(name[5])
+# This will not work because out of range
+print('Its just an intro of loops we will study in future lectures')
+print('-----------x--------------')
+print('Lets use a for loop\n')
+for character in name:
+  print(character)
+
+print('-----------x--------------')
+for character in apple:
+  print(character)
