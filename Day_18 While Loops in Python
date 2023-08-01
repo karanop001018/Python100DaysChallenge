@@ -1,0 +1,22 @@
+i = 0
+while(i<=5):
+  print(i)
+  i = i+1
+
+
+a = 0
+while(a<=20):
+  a = int(input('Enter a nimber:'))
+  print(i)
+print('Done with loop')
+print('You entered number greater than 20')
+
+count = 5
+while(count>0):
+  print(count)
+  count = count - 1
+
+#Do-While Loops
+# do{
+#   #loops body;
+# }while(condition);
