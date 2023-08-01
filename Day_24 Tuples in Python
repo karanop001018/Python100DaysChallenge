@@ -1,0 +1,27 @@
+# Lists are mutable and tuples are not
+
+tup = (1,5,6)
+print(type(tup),tup)
+k = (1,) # You must have to put comma after 1 if there is only one variable int tuple otherwise it will be considered as integer
+# k[0] = 2 This can't be done because list can be changed but tuple cannot be changed
+print(type(k),k)
+
+
+p =(2,5,8,88,556,'Karan',True)
+print(len(p))
+print(type(p),p)
+print(p[0])
+print(p[1])
+print(p[2])
+print(p[3])
+print(p[4])
+print(p[5])
+print(p[6])
+print(p[-1])
+print(p[-4])
+
+if 556 in tup:
+  print('Yes it is present in the tuple')
+
+q = p[1:4]
+print(q)
